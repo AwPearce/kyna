@@ -44,7 +44,11 @@ h3 {
 .navbar-inverse .navbar-nav > li > a {
   color: wheat;
 }
-
+h1 small,
+h2 small,
+h3 small {
+  color: wheat;
+}
 // Nav styles
 .navbar-inverse {
   background: #232526; /* fallback for old browsers */
@@ -66,8 +70,8 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
   padding-top: 20px;
 }
-.page-header-20 {
-  margin-top: 10px;
+.page-header-20, .well h3 {
+  margin-top: 20px;
 }
 .no-mar {
   margin: 0;
