@@ -1,4 +1,4 @@
-class StoresController < ApplicationController
+class ItemsController < ApplicationController
   def new
   end
 
