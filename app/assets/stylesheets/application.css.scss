@@ -40,20 +40,24 @@ h3 {
  font-size: 150%;
  font-weight: 700;
 }
-.navbar-inverse .navbar-brand,
-.navbar-inverse .navbar-nav > li > a {
-  color: wheat;
-}
+.navbar-inverse-grad .navbar-brand,
+.navbar-inverse-grad .navbar-nav > li > a,
 h1 small,
 h2 small,
 h3 small {
-  color: wheat;
+color: wheat;
+
 }
+
 // Nav styles
-.navbar-inverse {
+.navbar-inverse-grad {
   background: #232526; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, rgba(35, 37, 38, 1), rgba(65, 67, 69, 1)); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, rgba(35, 37, 38, 1), rgba(65, 67, 69, 1)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100%;
+  color: wheat;
+  border: none;
+  border-radius: 0;
 }
 
 // Page styles
@@ -62,6 +66,10 @@ body {
   background: #eacda3; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #eacda3 , #d6ae7b); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #eacda3 , #d6ae7b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.foot-pad {
+  padding-bottom: 70px;
+
 }
 .well hr, .page-header-20 {
   border-color: rgba(0, 0, 0, 0.2);
@@ -78,9 +86,15 @@ body {
   padding-bottom: 15px;
 }
 .well-top-0 {
-  padding-top: 0px;
   background: -webkit-linear-gradient(to left, rgba(35, 37, 38, 0.3), rgba(65, 67, 69, 0.3)); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, rgba(35, 37, 38, 0.3), rgba(65, 67, 69, 0.3)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+// box-shadow:  2px 2px 2px rgba(0, 0, 0, 0.4), 2px 2px 1px rgba(0, 0, 0, 1), -2px -2px 2px rgba(0, 0, 0, 0.05), inset 2px 2px 2px rgba(255, 255, 255, 0.2);
+  box-shadow: inset 1px 1px 15px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.img-shadow {
+//  box-shadow:  2px 1px 6px rgba(0, 0, 0, 1);
 }
 // Included for material design icons
 i.mdi::before,
