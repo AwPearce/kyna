@@ -6,9 +6,9 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <%= stylesheet_link_tag 'application', "https://fonts.googleapis.com/css?family=Amatic+SC:400,700|News+Cycle:400,700", type: 'stylesheet' %>
+    <%= stylesheet_link_tag    'application', "https://fonts.googleapis.com/css?family=Amatic+SC:400,700|News+Cycle:400,700", type: 'stylesheet' %>
   </head>
-  
+
   <body>
     <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
       <div class='container'>
@@ -30,6 +30,7 @@
           <ul class="nav navbar-nav main-font-150">
             <li><%= link_to "About", about_path %></li>
             <li><%= link_to "Contact Us", new_contact_path %></li>
+            <li><%= link_to "Shop", stores_path %></li>
           </ul>
         </div>
       </div>
