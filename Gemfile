@@ -42,8 +42,6 @@ gem 'stripe', '1.48.0'
 gem 'figaro', '1.1.1'
 # Use Paperclip for image upload
 gem 'paperclip', '4.3.6'
-# Use material design icons
-gem 'material_icons'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
