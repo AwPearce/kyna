@@ -32,13 +32,14 @@ h3 {
 }
 .main-font-250 {
  font-family: 'Amatic SC', cursive;
- font-size: 250%;
+ font-size: 300%;
  color: white;
+
 }
 .main-font-150 {
  font-family: 'Amatic SC', cursive;
- font-size: 150%;
- font-weight: 700;
+ font-size: 200%;
+
 }
 .navbar-inverse-grad .navbar-brand,
 .navbar-inverse-grad .navbar-nav > li > a,
@@ -56,7 +57,6 @@ color: wheat;
   background: #232526; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, rgba(35, 37, 38, 1), rgba(65, 67, 69, 1)); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, rgba(35, 37, 38, 1), rgba(65, 67, 69, 1)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  min-height: 100%;
   color: wheat;
   border: none;
   border-radius: 0;
@@ -64,7 +64,7 @@ color: wheat;
 
 // Page styles
 body {
-  padding-top: 0;
+  padding-top: 70px;
   background: #eacda3; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #eacda3 , #d6ae7b); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #eacda3 , #d6ae7b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -98,10 +98,7 @@ body {
 .img-shadow {
 //  box-shadow:  2px 1px 6px rgba(0, 0, 0, 1);
 }
-.wide-100 {
-  width: 100%;
-  height: auto;
-}
+
 textarea.txt-area-300 {
   height: 300px;
 }
