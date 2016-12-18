@@ -76,7 +76,7 @@ Rails.application.configure do
   # config.logger = ActiveSupport::TaggedLogging.new(Syslog::Logger.new 'app-name')
 
   # Added to link for material design icons cdn
-  config.action_controller.asset_host = 'cdn.materialdesignicons.com/1.7.22/css/materialdesignicons.min.css'
+  #config.action_controller.asset_host = 'no@example'
 
   if ENV["RAILS_LOG_TO_STDOUT"].present?
     logger           = ActiveSupport::Logger.new(STDOUT)
