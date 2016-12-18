@@ -15,14 +15,9 @@ class ArticlesController < ApplicationController
     end
   end
 
-
-
-  def index
-  end
-
   private
     def article_params
-      params.require(:article).permit(:title, :category, :description, :message)
+      params.require(:article).permit(:title, :category, :description, :message, :avatar)
     end
 
 

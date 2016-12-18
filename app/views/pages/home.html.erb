@@ -1,4 +1,4 @@
-<h1 class="page-header page-header-20 text-center home-header  well-top-0">
+<h1 class="page-header text-center home-header well-top-0">
   Welcome to Simply Kyna<br/>
    <small>The home of all things me, Kyna!</small>
 </h1>
@@ -11,7 +11,11 @@
 </p> -->
 <p><span class="glyphicon glyphicon-time"></span> <%= @last.created_at %></p>
 <hr>
-<img class="img-responsive img-shadow" src="http://placehold.it/900x300" alt="">
+<div class="container-fluid">
+
+<%= image_tag @last.avatar.url, class: "wide-100" %>
+</div>
+
 <hr>
 <p><%= @last.description  %></p>
 
@@ -32,7 +36,7 @@
 </p> -->
 <p><span class="glyphicon glyphicon-time"></span> <%= @second_last.created_at %></p>
 <hr>
-<img class="img-responsive img-shadow" src="http://placehold.it/900x300" alt="">
+<%= image_tag @second_last.avatar.url, class: "wide-100" %>
 <hr>
 <p><%= @second_last.description  %></p>
 
@@ -51,7 +55,7 @@
 </p> -->
 <p><span class="glyphicon glyphicon-time"></span> <%= @third_last.created_at %></p>
 <hr>
-<img class="img-responsive img-shadow" src="http://placehold.it/900x300" alt="">
+<%= image_tag @third_last.avatar.url, class: "wide-100" %>
 <hr>
 <p><%= @third_last.description  %></p>
 
