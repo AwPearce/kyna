@@ -1,6 +1,9 @@
-class AdminsController < ActionController::Base
+class UsersController < ActionController::Base
   def new
-    @admin = Admin.new
+    @user = User.new
+  end
+  def create
+    @user = User.save
   end
 
   def edit
