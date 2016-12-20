@@ -2,6 +2,10 @@
   Welcome to Simply Kyna<br/>
    <small>The home of all things me, Kyna!</small>
 </h1>
+
+<% if @last == nil %>
+
+<%else %>
 <!-- First Blog Post -->
 <h2>
    <a href="#"><%= @last.title %></a>
@@ -24,9 +28,11 @@
   <span class="glyphicon glyphicon-chevron-right"></span>
 <% end %>
 
-
+<% end %>
 <hr>
+<% if @second_last == nil %>
 
+<%else %>
 <!-- Second Blog Post -->
 <h2>
    <a href="#"><%= @second_last.title %></a>
@@ -44,8 +50,11 @@
   Read More
   <span class="glyphicon glyphicon-chevron-right"></span>
 <% end %>
+<% end %>
 
+<% if @third_last == nil %>
 
+<%else %>
 <!-- Third Blog Post -->
 <h2>
    <a href="#"><%= @third_last.title %></a>
@@ -75,3 +84,5 @@
        <a href="#">Newer &rarr;</a>
    </li>
 </ul>
+
+<% end %>
