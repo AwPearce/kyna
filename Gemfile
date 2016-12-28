@@ -42,6 +42,10 @@ gem 'stripe', '1.48.0'
 gem 'figaro', '1.1.1'
 # Use Paperclip for image upload
 gem 'paperclip', '4.3.6'
+# Use Sunspot to add search functionality to site
+gem 'sunspot_rails'
+gem 'kaminari'
+gem 'sunspot_with_kaminari'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -59,7 +63,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-
+  gem 'sunspot_solr'
 end
 
 group :production do
