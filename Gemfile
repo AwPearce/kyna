@@ -42,10 +42,6 @@ gem 'stripe', '1.48.0'
 gem 'figaro', '1.1.1'
 # Use Paperclip for image upload
 gem 'paperclip', '4.3.6'
-# Use Sunspot to add search functionality to site
-gem 'sunspot_rails'
-gem 'kaminari'
-gem 'sunspot_with_kaminari'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
